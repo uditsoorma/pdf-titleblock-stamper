@@ -1,0 +1,16 @@
+{
+  "name": "pdf-titleblock-stamper",
+  "version": "1.0.0",
+  "main": "api/stamp.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.19.0",
+    "node-fetch": "^2.6.7",
+    "form-data": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
